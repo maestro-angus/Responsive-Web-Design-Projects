@@ -1,0 +1,43 @@
+<!doctype html>
+
+<html>
+  
+   <style>  
+     
+   main{
+      background: #bdecb6;
+    }
+
+  </style>
+  
+  <main id="main">
+    
+    <header>
+    
+      <h1 id="title">Jamie Oliver</h1><br>
+      
+      <h2 id="sub-title">Changing "how to eat"</h2>
+      
+    </header>
+
+      <body>
+
+        <div id="img-div"> 
+
+          <img id="image" src="https://i0.wp.com/infodiario.es/wp-content/uploads/2019/05/jamie-e1558512729582.jpg?fit=1088%2C716" alt=""><p id="img-caption">Jaime Oliver showing a dish</p>
+          
+          <h3>Quick Info</h3>
+          
+          <p id="tribute-info">James Trevor Oliver (born 27 May 1975) is a British chef and restaurateur.<br> He is known for his approachable cuisine, which has led him to front numerous television shows and open many restaurants.</p>
+          <p>He also opened a campaign, "Feed Me Better", to introduce schoolchildren to healthier foods, which was later backed by the government.</p><br><!--Short info about the character-->
+          
+          <p id="text-link">For more info, click this <a href="https://en.wikipedia.org/wiki/Jamie_Oliver" id="tribute-link" target="_blank">link</a><!--shows a text with one link-->
+          
+        </div> 
+
+      </body>
+
+    
+  </main>
+  
+</html>

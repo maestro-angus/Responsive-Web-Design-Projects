@@ -7,7 +7,38 @@
    main{
       background: #bdecb6;
     }
-
+   #title{
+     background: #ff3232;
+     text-align: center;
+     font-size: 50px;     
+     }
+     #sub-title{
+       background: #ff6666;
+       text-align: center;
+       font-size: 25px;
+       }
+     body{
+       text-align: center;
+     }
+     h3{
+       font-size: 20px;
+     }
+     #image{
+       max-width: 80%;
+       margin-right:auto;
+       margin-left: auto;
+       display: block;
+     }
+     #img-caption{
+       text-align: center;
+       font-weigth: strong;
+     }
+     #text-link{
+       background: #ff3232;
+     }
+     #creator{
+       background: #ff6666;
+     }
   </style>
   
   <main id="main">
@@ -17,26 +48,28 @@
       <h1 id="title">Jamie Oliver</h1><br>
       
       <h2 id="sub-title">Changing "how to eat"</h2>
-      
+     <hr> 
     </header>
 
       <body>
 
         <div id="img-div"> 
 
-          <img id="image" src="https://i0.wp.com/infodiario.es/wp-content/uploads/2019/05/jamie-e1558512729582.jpg?fit=1088%2C716" alt=""><p id="img-caption">Jaime Oliver showing a dish</p>
-          
+          <img id="image" src="https://vice-images.vice.com/images/articles/meta/2016/03/24/is-jamie-oliver-the-worst-1458836145.jpg" alt=""><p id="img-caption"><strong>Jamie Oliver showing a dish</strong></p>
+          <hr>
           <h3>Quick Info</h3>
           
-          <p id="tribute-info">James Trevor Oliver (born 27 May 1975) is a British chef and restaurateur.<br> He is known for his approachable cuisine, which has led him to front numerous television shows and open many restaurants.</p>
-          <p>He also opened a campaign, "Feed Me Better", to introduce schoolchildren to healthier foods, which was later backed by the government.</p><br><!--Short info about the character-->
-          
-          <p id="text-link">For more info, click this <a href="https://en.wikipedia.org/wiki/Jamie_Oliver" id="tribute-link" target="_blank">link</a><!--shows a text with one link-->
+          <p id="tribute-info"><strong>James Trevor Oliver</strong> (born 27 May 1975) is a British chef and restaurateur.<br> He is known for his approachable cuisine, which has led him to front numerous television shows and open many restaurants.</p>
+          <p>He also opened a campaign, <a href="https://en.wikipedia.org/wiki/Jamie%27s_School_Dinners" target="_blank">"Feed Me Better"</a>, to introduce schoolchildren to healthier foods, which was later backed by the government.</p><!--Short info about the character-->
+           <p>Oliver conceived and established the Fifteen charity restaurant, where he trained disadvantaged young people to work in the hospitality industry. Following the success of the original restaurant in London, more Fifteens have opened around the globe</p><br>
+           <p id="text-link">Learn more about Jamie Oliver in the following <a href="https://en.wikipedia.org/wiki/Jamie_Oliver" id="tribute-link" target="_blank">link</a><!--shows a text with one link-->
           
         </div> 
 
       </body>
-
+    <footer>
+      <p id="creator">This website was created by <strong>Adrián F.</strong></p>
+    </footer>
     
   </main>
   

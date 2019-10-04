@@ -1,0 +1,55 @@
+<!datatype html>
+
+<html>
+  
+  <style>
+  
+  </style>
+  
+  <main>
+    
+   <header>
+     <h1 id="title">Feedback website</h1><!--title of the survey-->
+   </header>
+   <body>
+     <p id="description">This website was create to obtain feedback about all the campers</p><br><!--description of the survey-->
+       <form id="survey-form" action="url-submit">
+         <h2>Survey</h2>
+         <div>
+           <input id="name" type="name" placeholder="Name" required></input><label id="name-label">*Enter your Name</label><br>
+           <input id="email" type="email" placeholder="Email" required></input><label id="email-label">*Enter your Email</label><br><!--type email only allows to enter an email-->
+           <input id="number" type="number" min="1" max="100" placeholder="Age"</input><label id="number-label">Enter your Age</label><br><!--Min and max for the range of age-->
+           <select id="dropdown"><!--create a dropdown box-->
+             <option value="Female">Female</option><!--create an option-->
+             <option value="Male">Male</option>
+             <option value="Other">Other</option>
+           </select><label id="gender-label">Select your gender</label><br>
+         </div>
+         <div>
+           <p id="radiobutton-title">How much time do you spend coding?</p>
+             <input input="once" name="time" type="radio" value="first-radio" checked="checked"></input><label for="once">Once a week</label><!--Create a radio button-->
+             <input input="twice" name="time" type="radio" value="second-radio"></input><label for="twice">Twice a week</label>
+             <input input="three" name="time" type="radio" value="third-radio"></input><label for="three">Three times a week</label>
+             <input input="much" name="time" type="radio" value="fourth-radio"></input><label for="much">Too much</label><br>
+         </div>
+         <div>
+           <p id="checkbox-title">What do you do in your free time?</p>
+             <input input="games" name="hobby" type="checkbox" value="first-box"></input><label for="games">Games</label><!--Create a checkbox-->
+             <input input="sports" name="hobby" type="checkbox" value="second-box"></input><label for="sports">Sports</label>
+             <input input="code" name="hobby" type="checkbox" value="third-box"></input><label for="code">Coding</label>
+             <input input="other" name="hobby" type="checkbox" value="fourth-box"></input><label for="other">Other</label><br><br>
+         </div>
+         <div>
+           <p id="suggestions">Do you have any suggestions?</p>
+             <textarea id="textarea" maxlength="100" placeholder="Any suggestion?(100 characters max)"></textarea><!--create a textbox-->
+         </div>
+           <button id="submit" type="submit">Submit</button>
+     </form>
+   </body>
+   <footer>
+     <p>This website was create by Adrián F.</p>
+   </footer>
+  
+  </main>
+  
+</html>

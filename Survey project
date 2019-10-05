@@ -3,7 +3,58 @@
 <html>
   
   <style>
-  
+      html{
+      background:  #fad7a0;
+    }
+    form{
+      width: auto;
+      border: 15px solid dodgerblue;
+      padding: 20px auto;
+      margin: auto;
+      background: #32eaf0;
+    }
+    h1{
+      text-align: center;
+      width: 450px auto;
+      padding: 10px;
+      margin: auto;
+      background: #FF6633;
+    }
+    p{
+      text-align: center;
+      width: auto;
+    }
+    #description{
+      width: 450px auto;
+      border: 15px;
+      padding: 20px;
+      margin: auto;
+    }
+    footer{
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      padding: 1rem;
+    }
+    h2{
+      text-align: center;
+    }
+    div{
+      text-align: center;
+    }
+    #textarea{
+      width: 60%;
+      padding: 10%;
+      margin: 2%;
+      text-align: center;
+    }
+    #submit{
+      margin-left: 45%;
+      margin-bottom: 1%;
+      width: 10%;
+      padding: auto;
+    }
   </style>
   
   <main>

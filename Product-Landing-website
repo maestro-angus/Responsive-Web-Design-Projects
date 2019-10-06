@@ -16,11 +16,11 @@
       </nav>
     </header>
     <body>
-    <iframe id="video" width="420" height="315" src="https://www.youtube.com/embed/PMozFJbcceE">Your browser does not support the video tag</iframe><!--Insert youtube video-->
+      <iframe id="video" width="420" height="315" src="https://www.youtube.com/embed/PMozFJbcceE">Your browser does not support the video tag</iframe><!--Insert youtube video-->
       <form id="form" action="https://www.freecodecamp.com/email-submit">
         <p>For more information</p>
-       <input id="email" type="email" name="email" placeholder="Insert your email" required>
-       <input id="submit" name="submit" type="submit">
+        <input id="email" type="email" name="email" placeholder="Insert your email" required>
+        <input id="submit" name="submit" type="submit">
       </form>
     </body>
     <footer id="footer">

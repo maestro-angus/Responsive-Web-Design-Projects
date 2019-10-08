@@ -1,0 +1,54 @@
+<!datatype html>
+
+<html>
+
+  <style>
+  
+  </style>
+  
+  <main id="main-doc">
+    <header id="Twitter">
+      <h1>Twitter</h1>
+    </header>
+    <body>
+      <section class="main-section" id="Create_an_account">
+        <header>Create an account</header>
+        <div>
+        <p></p>
+        <p></p>  
+        </div>
+      </section>
+      <section class="main-section" id="Follow_others_accounts">
+        <header>Follow others accounts</header>
+        <div>
+        <p></p>
+        <p></p>  
+        </div>
+      </section>
+      <section class="main-section" id="Your_first_tweet">
+        <header>Your first tweet</header>
+        <div>
+          <p></p>
+          <p></p>
+        </div>
+      </section>
+      <section class="main-section" id="Trending_topic">
+        <header>Trending topic</header>
+        <div>
+          <p></p>
+          <p></p>
+        </div>
+      </section>
+      <section class="main-section" id="How_to_uses_Hashtags">
+        <header>How to uses Hashtags</header>
+        <div>
+          <p></p>
+          <p></p>
+        </div>
+      </section>
+    </body>
+    <footer>
+      <p id="creator">This website was create by Adrián F.</p>
+    </footer>
+  </main>
+</html>

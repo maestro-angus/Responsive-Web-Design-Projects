@@ -9,45 +9,70 @@
   <main id="main-doc">
     <header id="Twitter">
       <h1>Twitter</h1>
+      <hr>
+      <nav id="navbar">
+        <header>
+          <h2>How to use twitter</h2>
+          <hr>
+        </header>
+        <a class="nav-link" href="#Create_an_account">Create an account</a>
+        <a class="nav-link" href="#Follow_others_accounts">Follow others accounts</a>
+        <a class="nav-link" href="#Your_first_tweet">Your first tweet</a>
+        <a class="nav-link" href="#Trending_topic">Trending topic</a>
+        <a class="nav-link" href="#How_to_uses_Hashtags">How to uses Hashtags</a>
+      </nav>
     </header>
     <body>
       <section class="main-section" id="Create_an_account">
         <header>Create an account</header>
         <div>
-        <p></p>
-        <p></p>  
+        <p>Go to Twitter.comand sign up for an account. The "Full name" that you provide will be your display name,you can change your display name to whatever you want as many times as you want.</p>
+        <p>Enter your phone number and also choose a password.</p>  
         </div>
       </section>
       <section class="main-section" id="Follow_others_accounts">
         <header>Follow others accounts</header>
         <div>
-        <p></p>
-        <p></p>  
+        <p>Choose your interest, and follow others accounts</p>
+        <p>You can follow people you know personally, or artists or projects you're a fan of. You can follow robots and parody accounts.</p>  
         </div>
       </section>
       <section class="main-section" id="Your_first_tweet">
         <header>Your first tweet</header>
         <div>
-          <p></p>
-          <p></p>
+          <p>Write something you like, how you feel today, whatever you want.</p>
+          <p>Then press tweet</p>
+          <code></code>
         </div>
       </section>
       <section class="main-section" id="Trending_topic">
         <header>Trending topic</header>
         <div>
-          <p></p>
-          <p></p>
+          <p>In the right corner you can see a header with the name of trending topics</p>
+          <p>This are events, things,etc, that are currently being comment by other users</p>
+          <code></code>
+          <code></code>
         </div>
       </section>
       <section class="main-section" id="How_to_uses_Hashtags">
         <header>How to uses Hashtags</header>
         <div>
-          <p></p>
-          <p></p>
-        </div>
+          <p>You can use hashtags to connect your tweet with an element, event ,etc, This will show your tweet with others with the same hashtags</p>
+          <p>Most used</p>
+          <ol>
+            <li>Love</li>
+            <li>Photooftheday</li>
+            <li>Fashion</li>
+            <li>Beautiful</li>
+            <li>Happy</li>
+          </ol>  
+          <code></code>
+          <code></code>
+         </div>
       </section>
     </body>
     <footer>
+      <hr>
       <p id="creator">This website was create by Adrián F.</p>
     </footer>
   </main>

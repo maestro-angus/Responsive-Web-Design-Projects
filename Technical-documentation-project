@@ -3,7 +3,32 @@
 <html>
 
   <style>
-  
+    html{
+      background: #55ddff;
+    }
+    #navbar {
+      position: fixed;
+      left: 0;
+      background: #55ddff;
+    }
+    h1{
+      text-align: center;
+      background: #55ddff;
+    }
+    body{
+      position: relative;
+      left: 200px;
+      border: 100px #000000;
+      background: #ffffb2;
+    }
+    button{
+      background: #ffff00;
+    }
+    @media (max-width: 700px){
+      html{
+        text-align: center;
+      }
+    }
   </style>
   
   <main id="main-doc">
@@ -15,11 +40,12 @@
           <h2>How to use twitter</h2>
           <hr>
         </header>
-        <a class="nav-link" href="#Create_an_account">Create an account</a>
-        <a class="nav-link" href="#Follow_others_accounts">Follow others accounts</a>
-        <a class="nav-link" href="#Your_first_tweet">Your first tweet</a>
-        <a class="nav-link" href="#Trending_topic">Trending topic</a>
-        <a class="nav-link" href="#How_to_uses_Hashtags">How to uses Hashtags</a>
+          <button><a class="nav-link" href="#Create_an_account">Create an account</a></li></button><br><br>
+          <button><a class="nav-link" href="#Follow_others_accounts">Follow others accounts</a></button><br><br>
+          <button><a class="nav-link" href="#Your_first_tweet">Your first tweet</a></button><br><br>
+          <button><a class="nav-link" href="#Trending_topic">Trending topic</a></button><br><br>
+          <button><a class="nav-link" href="#How_to_uses_Hashtags">How to uses Hashtags</a></button><br>
+        </ul>
       </nav>
     </header>
     <body>

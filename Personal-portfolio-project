@@ -3,7 +3,33 @@
 <html>
   
   <style>
-    
+    html{
+      background: skyblue;
+    }
+    #navbar{
+      position: fixed;
+      left: 0;
+      top: 0;
+    }
+    #welcome-section{
+      text-align: center;
+      color: black;
+      height: 100vh;
+    }
+    #project-tile{
+      text-align: center;
+      color: black;
+      background: #ff4c4c;
+    }
+    body{
+      text-align: center;
+    }
+
+    @media (min-width: 700px){
+      footer{
+        background: #ff4c4c;
+      }  
+    }
   </style>
   
   <main>
@@ -12,18 +38,20 @@
         <ul>
           <li><a href="#projects">Projects</li>
       </nav>
+        <hr>
     </header>
     <div id="welcome-section">
       <h1>Hello</h1>
       <h2>My name is Adrián and this is my personal portfolio project</h2>
     </div>
     <body id="projects">
-      <p class="project-tile">This are my projects</p>
+      <p class="project-tile" id="project-tile">This are my projects</p>
       <a href="https://codepen.io/maestro-angus/full/JjjPOWR"><img src="https://screenshot.codepen.io/3656637.JjjPOWR.small.41a89be2-dac7-4086-b661-bbf47a0a04a4.png"></a>
       <a href="https://codepen.io/maestro-angus/full/pooowRq"><img src="https://screenshot.codepen.io/3656637.pooowRq.small.e614f610-664a-4ff9-814a-bdbcb2f13072.png"></a>
       <a href="https://codepen.io/maestro-angus/pen/OJJPjMo"><img src="https://screenshot.codepen.io/3656637.OJJPjMo.small.5d2913b6-021c-4175-b275-be69823541a4.png"></a>
       <a href="https://codepen.io/maestro-angus/pen/VwweZVG"><img src="https://screenshot.codepen.io/3656637.VwweZVG.small.02a5d662-0f25-4b9d-ac82-e55a04575858.png"></a>
     </body>
+      <hr>
     <footer>
       <a href="" id="profile-link" target="_blank">Add url</a>
       <p>This website was create by Adrián</p>
